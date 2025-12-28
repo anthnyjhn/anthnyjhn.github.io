@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+    <!-- <link rel="stylesheet" href="style/style.css" /> -->
     <title>Anthony John C.</title>
   </head>
   <body>
@@ -227,4 +227,244 @@
       </div>
     </div>
   </body>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --card-bg: #161b22;
+      --border: #30363d;
+
+      --text-primary: #e6edf3;
+      --text-secondary: #8b949e;
+
+      --link: #2f81f7;
+      --link-hover: #1f6feb;
+
+      --tag-fg: #aaaaaa;
+      --bgColor-accent-muted: #e0e0e031;
+    }
+
+    body {
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text-primary);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .main-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .content-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 1024px;
+      width: 100%;
+      margin: 20px;
+      height: fit-content;
+    }
+
+    .profile-header-content {
+      display: flex;
+    }
+
+    .profile-header-image img {
+      width: 150px;
+      border-radius: 100%;
+      outline: 1px solid var(--border);
+    }
+
+    .profile-header-text {
+      margin-left: 1.5rem;
+    }
+
+    .profile-header-text h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      margin: 0.5rem 0;
+    }
+
+    .general-sections {
+      padding: 20px;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+    }
+
+    .card-heading-title {
+      margin: 0 0 20px;
+    }
+
+    .about-section-skills-icons,
+    .projects-card-stack-icons {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+
+    .text-icons {
+      background-color: var(--bgColor-accent-muted);
+      color: var(--tag-fg);
+      padding: 0.3rem;
+      border-radius: 5px;
+      width: fit-content;
+      margin: 0;
+    }
+
+    .projects-card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+      gap: 20px;
+    }
+
+    .projects-card {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .projects-card:hover {
+      border-color: var(--link);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
+    }
+
+    .project-card-heading {
+      margin: 0;
+    }
+
+    .project-card-view-link {
+      margin-bottom: 0;
+    }
+
+    .experience-card {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .experience-cards-position-name {
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    .experience-cards-company-name {
+      margin: 0;
+      color: rgb(145, 145, 145);
+      margin: 0.5rem 0;
+      font-weight: 500;
+      font-size: medium;
+    }
+
+    .experience-cards-right {
+      width: fit-content;
+    }
+
+    .experience-cards-list ul {
+      padding-left: 0;
+    }
+
+    .experience-cards-list ul li {
+      margin: 1rem;
+    }
+
+    .experience-timespan {
+      color: rgb(145, 145, 145);
+    }
+
+    .experience-card {
+      border-bottom: 1px solid rgb(230, 230, 230);
+      padding: 0 1rem;
+    }
+
+    .education-card {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .education-cards-position-name {
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+
+    .education-cards-company-name {
+      margin: 0;
+      color: rgb(145, 145, 145);
+      margin: 0.5rem 0;
+      font-weight: 500;
+      font-size: medium;
+    }
+
+    .education-cards-right {
+      width: fit-content;
+    }
+
+    .education-cards-list ul {
+      padding-left: 0;
+    }
+
+    .education-cards-list ul li {
+      margin: 1rem;
+    }
+
+    .education-timespan {
+      color: rgb(145, 145, 145);
+    }
+
+    .education-card {
+      border-bottom: 1px solid rgb(230, 230, 230);
+      padding: 0 1rem;
+    }
+
+    .experience-timespan,
+    .education-timespan,
+    .experience-cards-company-name,
+    .education-cards-company-name {
+      color: var(--text-secondary);
+    }
+
+    @media (max-width: 768px) {
+      .profile-header-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .profile-header-text {
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+
+      .about-section-skills-icons,
+      .projects-card-stack-icons {
+        flex-wrap: wrap;
+      }
+
+      .experience-card,
+      .education-card {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .experience-cards-right,
+      .education-cards-right {
+        align-self: flex-start;
+      }
+    }
+  </style>
 </html>
