@@ -245,7 +245,7 @@
     }
 
     body {
-      margin: 0;
+      margin: 20px;
       background-color: var(--bg);
       color: var(--text-primary);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -265,8 +265,11 @@
 
     .main-container {
       display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+      width: 100%;
     }
 
     .content-container {
@@ -275,7 +278,6 @@
       gap: 20px;
       max-width: 1024px;
       width: 100%;
-      margin: 20px;
       height: fit-content;
     }
 
@@ -328,7 +330,7 @@
 
     .projects-card-container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       gap: 20px;
     }
 
@@ -464,6 +466,10 @@
       .experience-cards-right,
       .education-cards-right {
         align-self: flex-start;
+      }
+
+      .projects-card-container {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
       }
     }
   </style>
