@@ -1,505 +1,486 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="style/style.css" /> -->
-    <title>Anthony John C.</title>
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="content-container">
-        <div class="profile-header general-sections">
-          <div class="profile-header-content">
-            <div class="profile-header-image">
-              <img src="./assets/images/fav.jpg" alt="My display picture" />
-            </div>
-            <div class="profile-header-text">
-              <h1>Anthony John Caronongan</h1>
-              <p>Information Technology - Software Technology @ Swinburne</p>
-              <div class="links">
-                <a href="https://github.com/anthnyjhn" target="_blank"
-                  >Github</a
-                >
-                |
-                <a href="https://www.linkedin.com/in/anthnyjhn/" target="_blank"
-                  >LinkedIn</a
-                >
-                |
-                <a href="mailto:johncaronongan17@gmail.com">Email</a>
-                |
-                <a href="https://blog.anthnyjhn.com/" target="_blank">Blog</a>
-              </div>
-            </div>
-          </div>
+    <title>anthnyjhn.com</title>
+
+    <style>
+        :root {
+            --color-black-950: #0a0a0a;
+            /* main background */
+            --color-black-900: #1a1a1a;
+            /* dark card background / header */
+            --color-grey-800: #2e2e2e;
+            /* slightly lighter card / section background */
+            --color-grey-700: #4c4c4c;
+            /* outlines, borders */
+            --color-grey-500: #7a7a7a;
+            /* secondary text / subtle info */
+            --color-grey-300: #b3b3b3;
+            /* main text */
+            --color-grey-100: #e5e5e5;
+            /* highlights / buttons / headings on dark */
+            --color-white-50: #ffffff;
+            /* primary headings, buttons text */
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-image: "./assets/images/fav.jpg";
+        }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[var(--color-black-950)] text-[var(--color-grey-300)]">
+    <div class="pointer-events-none fixed inset-0 z-0" aria-hidden="true">
+        <div class="absolute inset-0" style="transform: none;">
+            <div class="absolute rounded-full bg-white"
+                style="left: 73.6153%; top: 58.1872%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 53.1121%; top: 12.2426%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 27.0645%; top: 37.6818%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 33.7498%; top: 42.4108%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 40.8771%; top: 37.0454%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 30.505%; top: 0.292686%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 62.4244%; top: 52.4233%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 93.7147%; top: 47.7306%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 5.68954%; top: 30.0569%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 66.9505%; top: 78.2419%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 69.1515%; top: 27.9845%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 7.42089%; top: 21.3882%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 87.4117%; top: 12.7064%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 10.5807%; top: 36.4053%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 33.5866%; top: 11.8158%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 67.2562%; top: 27.0098%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 86.4687%; top: 9.82313%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 82.4556%; top: 0.173023%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 0.155344%; top: 33.4829%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 98.4883%; top: 27.3974%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 24.5096%; top: 60.1662%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 92.2306%; top: 67.6487%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 36.1303%; top: 25.6261%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 53.672%; top: 41.9893%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 78.8393%; top: 11.1116%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 82.3517%; top: 51.0824%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 42.851%; top: 10.2263%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 92.7476%; top: 81.7861%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 6.85743%; top: 41.4552%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 50.445%; top: 41.3181%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 44.3485%; top: 37.7155%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 34.7525%; top: 22.7394%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 57.488%; top: 36.0483%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 92.1075%; top: 4.40877%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 50.6011%; top: 40.8322%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 31.4766%; top: 13.6678%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 54.7117%; top: 85.431%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 47.9244%; top: 78.8631%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 45.0248%; top: 95.9348%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 80.2888%; top: 72.5081%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 64.1201%; top: 11.8655%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 35.0972%; top: 59.177%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 57.0632%; top: 31.2922%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 23.0496%; top: 50.6439%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 76.8442%; top: 80.214%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 75.6519%; top: 77.6727%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 93.3087%; top: 84.7628%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 41.539%; top: 5.56461%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 60.9884%; top: 72.0141%; width: 1px; height: 1px; opacity: 0.5;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 85.5434%; top: 71.4195%; width: 1px; height: 1px; opacity: 0.5;"></div>
         </div>
-
-        <div class="about-section general-sections">
-          <h1 class="card-heading-title">About me</h1>
-          <p>
-            I'm a 2nd year Information Technology student majoring in Software
-            Technology at Swinburne University of Technology. I have a solid
-            foundation in frontend and backend software development, networking,
-            cloud computing, and artificial intelligence.
-          </p>
-
-          <p>
-            I have foundational skills in C# (.NET), Node.js, RESTful/SOAP APIs,
-            JavaScript/TypeScript (React), and IoT programming with C++ and
-            Python. Beyond programming, I also have experience working with
-            CI/CD pipelines, Docker, and cloud platforms. I have demonstrated
-            these skills through my projects.
-          </p>
-
-          <p>
-            When I'm not working, I enjoy playing tennis, cycling, and building
-            physical projects, including welding and 3D printing.
-          </p>
-
-          <div class="about-section-skills-icons">
-            <p class="text-icons">JavaScript</p>
-            <p class="text-icons">C#</p>
-            <p class="text-icons">.NET Framework</p>
-            <p class="text-icons">Node.js</p>
-            <p class="text-icons">Git</p>
-            <p class="text-icons">SQL</p>
-            <p class="text-icons">C++</p>
-            <p class="text-icons">Python</p>
-          </div>
+        <div class="absolute inset-0" style="transform: none;">
+            <div class="absolute rounded-full bg-white"
+                style="left: 60.4354%; top: 63.9565%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 93.9736%; top: 31.1733%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 97.9871%; top: 27.3791%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 9.28236%; top: 71.4044%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 37.3317%; top: 97.8948%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 85.3177%; top: 21.1903%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 56.6667%; top: 20.182%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 93.3942%; top: 73.4057%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 69.3345%; top: 64.8645%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 60.4884%; top: 75.0062%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 85.3174%; top: 94.0802%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 34.8405%; top: 90.7811%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 56.5277%; top: 52.2066%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 22.3589%; top: 70.6851%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 54.9307%; top: 72.1773%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 91.0226%; top: 37.2487%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 9.19148%; top: 37.4837%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 76.6281%; top: 64.5568%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 86.7895%; top: 55.8627%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 47.5731%; top: 3.62692%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 71.1824%; top: 78.5117%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 57.4343%; top: 12.8386%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 17.9149%; top: 68.2303%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 8.47792%; top: 15.2336%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 37.6896%; top: 51.6968%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 66.7394%; top: 38.1937%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 54.2207%; top: 20.5533%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 54.0588%; top: 32.5529%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 2.26362%; top: 17.1255%; width: 2px; height: 2px; opacity: 0.7;"></div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 7.03571%; top: 76.2145%; width: 2px; height: 2px; opacity: 0.7;"></div>
         </div>
-        <div class="project-section general-sections">
-          <h1 class="card-heading-title">Projects</h1>
-          <p>
-            Here are some of the Projects that highlight my skills and expertise
-          </p>
-          <div class="projects-card-container">
-            <div class="projects-card">
-              <h4 class="project-card-heading project-card-view-link">
-                <a href="">Project Name</a>
-              </h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Delectus harum architecto accusamus cumque.
-              </p>
-              <div class="projects-card-stack-icons">
-                <p class="text-icons">React</p>
-                <p class="text-icons">Node.JS</p>
-                <p class="text-icons">MongoDB</p>
-                <p class="text-icons">Stripe</p>
-              </div>
+        <div class="absolute inset-0" style="transform: none;">
+            <div class="absolute rounded-full bg-white"
+                style="left: 60.863%; top: 47.6442%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
             </div>
-          </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 70.9447%; top: 93.6469%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 69.2819%; top: 35.4882%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 33.3477%; top: 46.7917%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 72.6424%; top: 46.2962%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 19.4694%; top: 66.6073%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 73.2514%; top: 32.1044%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 79.0198%; top: 90.6743%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 31.5639%; top: 95.2655%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 21.7324%; top: 33.7454%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 48.3917%; top: 94.1878%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 82.8268%; top: 1.432%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 11.6282%; top: 49.7358%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 52.8101%; top: 96.3465%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
+            <div class="absolute rounded-full bg-white"
+                style="left: 3.9824%; top: 49.5846%; width: 3px; height: 3px; opacity: 0.9; box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 4px;">
+            </div>
         </div>
-        <div class="experience-section general-sections">
-          <h1 class="card-heading-title">Experience</h1>
-          <div class="experience-cards">
-            <div class="experience-card">
-              <div class="experience-cards-left">
-                <h3 class="experience-cards-position-name">
-                  Wide Format Printer
-                </h3>
-                <h4 class="experience-cards-company-name">
-                  Progress Printing (Full-time)
-                </h4>
-                <div class="experience-cards-list">
-                  <ul>
-                    <li>
-                      Operated wide-format printers (HP Latex 365/800) and a
-                      hybrid UV LED printer (Roland LEJ640)
-                    </li>
-                    <li>
-                      Used finishing equipment including HP Summa vinyl cutters
-                      and laminators
-                    </li>
-                    <li>
-                      Produced stickers, decals, ACP / Metal / Corflute signs,
-                      posters, and banners
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="experience-cards-right">
-                <p class="experience-timespan">Mar 2024 - Present</p>
-              </div>
-            </div>
-            <div class="experience-card">
-              <div class="experience-cards-left">
-                <h3 class="experience-cards-position-name">Owner</h3>
-                <h4 class="experience-cards-company-name">
-                  anthnyjhn.com (Part-time)
-                </h4>
-                <div class="experience-cards-list">
-                  <ul>
-                    <li>
-                      Delivered high-quality 3D models for US and AU gaming
-                      companies
-                    </li>
-                    <li>
-                      Managing a team of 4+ 3D modelers and artists, ensuring
-                      quality control and on-time delivery
-                    </li>
-                    <li>
-                      Built an internal financial system to optimize costs,
-                      increase revenue, and forecast future sales growth
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="experience-cards-right">
-                <p class="experience-timespan">Apr 2025 - Present</p>
-              </div>
-            </div>
-            <div class="experience-card">
-              <div class="experience-cards-left">
-                <h3 class="experience-cards-position-name">
-                  Fullstack Game Programmer
-                </h3>
-                <h4 class="experience-cards-company-name">Roblox (Contract)</h4>
-                <div class="experience-cards-list">
-                  <ul>
-                    <li>
-                      Lead development under these Game Studios: Lead Games,
-                      Starsphere Tycoons, Aris Productions, BigWhale Games, Mega
-                      Super Fun, WebWare
-                    </li>
-                    <li>
-                      Collaborated with designers to create responsive user
-                      interfaces
-                    </li>
-                    <li>
-                      Developed features in games using Lua/Luau and Knit
-                      framework
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="experience-cards-right">
-                <p class="experience-timespan">Nov 2020 - Jan 2024</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="education-section general-sections">
-          <h1 class="card-heading-title">Education</h1>
-          <div class="education-cards">
-            <div class="education-card">
-              <div class="education-cards-left">
-                <h3 class="education-cards-position-name">
-                  Bachelor of Information Technology (Major in Software
-                  Technology & Minor in Data Science)
-                </h3>
-                <h4 class="education-cards-company-name">
-                  Swinburne University of Technology
-                </h4>
-                <div class="education-cards-list">
-                  <ul>
-                    <li>
-                      Completed projects using C# (.NET), JavaScript (D3,
-                      React), C++, SQL and Python
-                    </li>
-                    <li>
-                      Hands-on experience with Git, Docker, SQL Servers and
-                      Cloud Platforms (Azure)
-                    </li>
-                    <li>
-                      Collaborated in teams using project management tools and
-                      methodologies, including Trello, GitHub Projects, and Jira
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="education-cards-right">
-                <p class="education-timespan">Oct 2024 - Present</p>
-              </div>
-            </div>
-            <div class="education-card">
-              <div class="education-cards-left">
-                <h3 class="education-cards-position-name">
-                  Certificate IV in Information Technology (Programming)
-                </h3>
-                <h4 class="education-cards-company-name">TAFE NSW</h4>
-                <div class="education-cards-list">
-                  <ul>
-                    <li>
-                      Practical experience with C# (.NET Framework), Express.js,
-                      Microsoft SQL, and React Native
-                    </li>
-                    <li>
-                      Developed projects involving frontend and backend
-                      integration, REST APIs, OOP and debugging/testing
-                      practices
-                    </li>
-                    <li>
-                      Enhanced technical skills in software design,
-                      problem-solving, and project documentation
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="education-cards-right">
-                <p class="education-timespan">Feb 2024 - Jun 2024</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </body>
 
-  <style>
-    :root {
-      --bg: #0d1117;
-      --card-bg: #161b22;
-      --border: #30363d;
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-[rgba(10,10,10,0.7)]">
+        <div class="container mx-auto max-w-7xl p-4">
+            <nav class="flex items-center justify-between text-[var(--color-white-50)]">
+                <h1 class="font-bold text-lg">
+                    <a href="#">ANTHNYJHN</a>
+                </h1>
+                <div class="hidden sm:flex gap-6 text-sm text-[var(--color-grey-300)]">
+                    <a href="#about" class="hover:text-[var(--color-white-50)]">About</a>
+                    <a href="#projects" class="hover:text-[var(--color-white-50)]">Projects</a>
+                    <a href="#education" class="hover:text-[var(--color-white-50)]">Education</a>
+                    <a href="https://blog.anthnyjhn.com" target="_blank"
+                        class="hover:text-[var(--color-white-50)]">Blog</a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-      --text-primary: #ffffffda;
-      --text-secondary: #b9b9b9;
-      --text-body: #c0c0c0;
+    <main class="container mx-auto max-w-7xl px-4 pt-24">
 
-      --link: #2f81f7;
-      --link-hover: #1f6feb;
 
-      --tag-fg: #aaaaaa;
-      --bgColor-accent-muted: #e0e0e031;
-    }
+        <section id="about" class="py-20 grid gap-12 sm:grid-cols-2 items-center">
+            <div class="flex justify-center">
 
-    body {
-      margin: 20px;
-      background-color: var(--bg);
-      color: var(--text-primary);
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-        sans-serif;
-    }
+                <img src="./assets/images/fav.jpg" class="h-72 w-72 rounded-full " alt="">
+            </div>
 
-    a {
-      color: var(--link);
-      text-decoration: none;
-    }
+            <div class="text-center sm:text-left">
+                <h1 class="text-5xl font-bold text-[var(--color-white-50)]">
+                    Hi, I'm John
+                </h1>
+                <h2 class="mt-2 text-2xl text-[var(--color-grey-100)]">
+                    Junior Backend Developer
+                </h2>
 
-    a:hover {
-      color: var(--link-hover);
-      text-decoration: underline;
-    }
+                <p class="mt-6 max-w-xl text-[var(--color-grey-300)]">
+                    2nd year Information Technology student majoring in Software Technology
+                    at Swinburne University of Technology.
+                </p>
 
-    .main-container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    }
+                <p class="mt-4 max-w-xl text-[var(--color-grey-300)]">
+                    Experience with C# (.NET), Node.js, RESTful APIs, React, Python (IoT),
+                    Docker, CI/CD pipelines, and cloud platforms.
+                </p>
 
-    .content-container {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      max-width: 1024px;
-      width: 100%;
-      height: fit-content;
-    }
+                <div class="mt-6 flex flex-wrap gap-4 justify-center sm:justify-start">
 
-    .profile-header-content {
-      display: flex;
-    }
+                    <a href="./assets/files/resume.txt" download class="px-5 py-2 rounded-lg font-medium
+                    bg-[var(--color-grey-100)]
+                    text-[var(--color-black-950)]
+                    hover:bg-[var(--color-white-50)] transition">
+                        Resume
+                    </a>
 
-    .profile-header-image img {
-      width: 150px;
-      border-radius: 100%;
-      outline: 1px solid var(--border);
-    }
+                    <a href="#contact" class="px-5 py-2 rounded-lg font-medium
+                    text-[var(--color-white-50)]
+                    outline outline-2 outline-[var(--color-grey-700)]
+                    hover:bg-[var(--color-black-900)] transition">
+                        Contact me
+                    </a>
+                </div>
+            </div>
+        </section>
 
-    .profile-header-text {
-      margin-left: 1.5rem;
-    }
 
-    .profile-header-text h1 {
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: 600;
-      margin: 0.5rem 0;
-    }
+        <section id="projects" class="py-20">
+            <h2 class="text-3xl font-bold text-[var(--color-white-50)] mb-10">
+                Projects
+            </h2>
 
-    .general-sections {
-      padding: 20px;
-      background-color: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 0.5rem;
-    }
+            <div class="grid gap-6 sm:grid-cols-3">
+                <div
+                    class="rounded-xl bg-[var(--color-black-900)] outline outline-1 outline-[var(--color-grey-700)] overflow-hidden">
+                    <div>
+                        <img src="./assets/images/anti-b.png" class="aspect-video object-cover w-full" />
+                    </div>
 
-    .card-heading-title {
-      margin: 0 0 20px;
-    }
+                    <div class="m-4">
+                        <h3 class="mt-4 text-xl font-bold text-[var(--color-white-50)]">
+                            Anti-Brainrot Extension
+                        </h3>
 
-    .about-section-skills-icons,
-    .projects-card-stack-icons {
-      display: flex;
-      flex-direction: row;
-      gap: 0.5rem;
-    }
+                        <p class="mt-2 text-sm text-[var(--color-grey-300)]">
+                            A chrome extenion to help you improve your digital media consumption by blocking suggested
+                            media content that is engineered to keep you
+                            consuming more content.
+                        </p>
 
-    .text-icons {
-      background-color: var(--bgColor-accent-muted);
-      color: var(--tag-fg);
-      padding: 0.3rem;
-      border-radius: 5px;
-      width: fit-content;
-      margin: 0;
-    }
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                JavaScript
+                            </span>
+                            <span class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                HTML
+                            </span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                                            text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                CSS
+                            </span>
+                        </div>
+                    </div>
+                </div>
 
-    .projects-card-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      gap: 20px;
-    }
+                <div
+                    class="rounded-xl bg-[var(--color-black-900)] outline outline-1 outline-[var(--color-grey-700)] overflow-hidden">
+                    <div>
+                        <img src="./assets/images/rofetch-logo.png" class="aspect-video object-cover w-full" />
+                    </div>
 
-    .projects-card {
-      background-color: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 20px;
-      transition: border-color 0.2s ease, box-shadow 0.2s ease;
-    }
+                    <div class="m-4">
+                        <h3 class="mt-4 text-xl font-bold text-[var(--color-white-50)]">
+                            Rofetch
+                        </h3>
 
-    .projects-card:hover {
-      border-color: var(--link);
-      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.6);
-    }
+                        <p class="mt-2 text-sm text-[var(--color-grey-300)]">
+                            RoFetch is a fetch module for Roblox games that simplifies the fetching
+                            process for your game.
+                        </p>
 
-    .project-card-heading {
-      margin: 0;
-    }
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                Luau
+                            </span>
+                            <span
+                                class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                                            text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                Roblox
+                            </span>
+                        </div>
+                    </div>
+                </div>
 
-    .project-card-view-link {
-      margin-bottom: 0;
-    }
+                <!-- <div
+                    class="rounded-xl bg-[var(--color-black-900)] outline outline-1 outline-[var(--color-grey-700)] overflow-hidden">
+                    <div>
+                        <img src="./assets/images/fav.jpg" class="aspect-video object-cover w-full" />
+                    </div>
 
-    .experience-card {
-      display: flex;
-      justify-content: space-between;
-    }
+                    <div class="m-4">
+                        <h3 class="mt-4 text-xl font-bold text-[var(--color-white-50)]">
+                            Project Title
+                        </h3>
 
-    .experience-cards-position-name {
-      font-weight: 500;
-      margin-bottom: 0;
-    }
+                        <p class="mt-2 text-sm text-[var(--color-grey-300)]">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, natus, exercitationem
+                            ullam sunt eos enim vero dolore eveniet adipisci cumque, laudantium explicabo nisi
+                            recusandae
+                            totam molestias architecto earum modi tenetur!
+                        </p>
 
-    .experience-cards-company-name {
-      margin: 0;
-      color: rgb(145, 145, 145);
-      margin: 0.5rem 0;
-      font-weight: 500;
-      font-size: medium;
-    }
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                Python
+                            </span>
+                            <span class="px-2 py-1 text-xs rounded-md bg-[var(--color-black-950)]
+                                text-[var(--color-grey-300)] outline outline-1 outline-[var(--color-grey-700)]">
+                                SQL
+                            </span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
 
-    .experience-cards-right {
-      width: fit-content;
-    }
 
-    .experience-cards-list {
-      margin-bottom: 20px;
-    }
+        <section id="education" class="py-20">
+            <h2 class="text-3xl font-bold text-[var(--color-white-50)] mb-12">
+                Education
+            </h2>
 
-    .experience-cards-list ul {
-      padding-left: 0;
-    }
+            <div class="flex flex-col gap-8">
 
-    .experience-cards-list ul li {
-      margin: 1rem;
-    }
+                <div
+                    class="flex flex-col md:flex-row md:justify-between  rounded-xl p-6 outline outline-1 outline-[var(--color-grey-700)] backdrop-blur-md">
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold text-[var(--color-white-50)]">
+                            Bachelor of Information Technology (Major in Software Technology & Minor in Data Science)
+                        </h3>
+                        <h4 class="text-[var(--color-grey-300)] mt-1">
+                            Swinburne University of Technology
+                        </h4>
+                        <ul class="mt-4 list-disc list-inside text-[var(--color-grey-300)] space-y-1 text-sm">
+                            <li>Completed projects using C# (.NET), JavaScript (D3, React), C++, SQL and Python</li>
+                            <li>Hands-on experience with Git, Docker, SQL Servers and Cloud Platforms (Azure)</li>
+                            <li>Collaborated in teams using project management tools and methodologies, including
+                                Trello, GitHub Projects, and Jira</li>
+                        </ul>
+                    </div>
+                    <div class="mt-4 md:mt-0 md:w-1/4 flex justify-start md:justify-end items-start">
+                        <p class="text-[var(--color-grey-300)] font-medium">
+                            Oct 2024 - Present
+                        </p>
+                    </div>
+                </div>
 
-    .experience-timespan,
-    .education-timespan {
-      color: rgb(145, 145, 145);
-    }
 
-    .experience-card {
-      border-bottom: 1px solid rgb(230, 230, 230);
-      padding: 0 1rem;
-    }
+                <div
+                    class="flex flex-col md:flex-row md:justify-between backdrop-blur-md rounded-xl p-6 outline outline-1 ">
+                    <div class="md:w-3/4">
+                        <h3 class="text-xl font-semibold text-[var(--color-white-50)]">
+                            Certificate IV in Information Technology (Programming)
+                        </h3>
+                        <h4 class="text-[var(--color-grey-300)] mt-1">
+                            TAFE NSW
+                        </h4>
+                        <ul class="mt-4 list-disc list-inside text-[var(--color-grey-300)] space-y-1 text-sm">
+                            <li>Practical experience with C# (.NET Framework), Express.js, Microsoft SQL, and React
+                                Native</li>
+                            <li>Developed projects involving frontend and backend integration, REST APIs, OOP and
+                                debugging/testing practices</li>
+                            <li>Enhanced technical skills in software design, problem-solving, and project documentation
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-4 md:mt-0 md:w-1/4 flex justify-start md:justify-end items-start">
+                        <p class="text-[var(--color-grey-300)] font-medium">
+                            Feb 2024 - Jun 2024
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    .education-card {
-      display: flex;
-      justify-content: space-between;
-    }
+    </main>
+</body>
 
-    .education-cards-position-name {
-      font-weight: 500;
-      margin-bottom: 0;
-    }
-
-    .education-cards-company-name {
-      margin: 0;
-      color: rgb(145, 145, 145);
-      margin: 0.5rem 0;
-      font-weight: 500;
-      font-size: medium;
-    }
-
-    .education-cards-right {
-      width: fit-content;
-    }
-
-    .education-cards-list ul {
-      padding-left: 0;
-    }
-
-    .education-cards-list ul li {
-      margin: 1rem;
-    }
-
-    .education-card {
-      border-bottom: 1px solid rgb(230, 230, 230);
-      padding: 0 1rem;
-    }
-
-    .education-cards-list {
-      margin-bottom: 20px;
-    }
-
-    .experience-timespan,
-    .education-timespan,
-    .experience-cards-company-name,
-    .education-cards-company-name {
-      color: var(--text-secondary);
-    }
-
-    @media (max-width: 768px) {
-      .profile-header-content {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      .profile-header-text {
-        margin-left: 0;
-        margin-top: 1rem;
-      }
-
-      .about-section-skills-icons,
-      .projects-card-stack-icons {
-        flex-wrap: wrap;
-      }
-
-      .experience-card,
-      .education-card {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-
-      .experience-cards-right,
-      .education-cards-right {
-        align-self: flex-start;
-      }
-
-      .projects-card-container {
-        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-      }
-    }
-  </style>
 </html>
