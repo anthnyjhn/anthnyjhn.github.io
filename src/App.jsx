@@ -1,20 +1,18 @@
 import "./App.css";
 
-// Components
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Archive from "./pages/Archive";
 
 function App() {
   return (
     <>
-      <div className="2xl:grid grid-cols-2 ">
-        <Intro />
-        <About />
-        <Experience />
-        <Projects />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/archive" element={<Archive />}></Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
