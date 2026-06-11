@@ -10,7 +10,7 @@ import { faEarthAmericas, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Intro = () => {
   return (
-    <div className="max-w-[50%] mt-4">
+    <div className="max-w-full xl:max-w-[50%] mt-4">
       <h1 className="text-5xl text-gray-200 font-bold">Anthony John C.</h1>
       <p className="text-lg font-medium my-3">
         IT - Software Tech. & Data Science, 2027 at Swinburne University

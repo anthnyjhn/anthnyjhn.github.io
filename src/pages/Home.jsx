@@ -8,11 +8,15 @@ import Projects from "../components/Projects";
 
 const Home = () => {
   return (
-    <div className="2xl:grid grid-cols-2 ">
-      <Intro />
-      <About />
-      <Experience />
-      <Projects />
+    <div className="xl:grid grid-cols-2 ">
+      <div>
+        <Intro className="sticky" />
+      </div>
+      <div>
+        <About />
+        <Experience />
+        <Projects />
+      </div>
     </div>
   );
 };

@@ -7,12 +7,12 @@ const Projects = () => {
   return (
     <div className="my-15">
       <h2 className="my-6 font-semibold">PROJECTS</h2>
-      <div className="grid grid-cols-12 mb-12">
-        <div className="col-span-3 pr-8 pt-1">
+      <div className="flex flex-wrap sm:grid grid-cols-12 mb-12">
+        <div className="mb-4 sm:col-span-3 pr-8 pt-1">
           <img
             src="/antibrainrot.png"
             alt=""
-            className="max-w-full hover:outline-1 "
+            className="max-w-full rounded hover:outline-1 "
           />
         </div>
         <div className="col-span-9">
@@ -20,12 +20,12 @@ const Projects = () => {
             Anti-Brainrot Chrome Extension{" "}
             <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
           </p>
-          <p className="mb-3">
+          <p className="mb-3 text-zinc-400">
             A browser extension that helps you focus by blocking short form
             contents and algorithm-suggested contents. Accumulated 520+ installs
             and 50+ weekly active users.
           </p>
-          <div className="flex  gap-1.5">
+          <div className="flex flex-wrap gap-1.5">
             <span className="bg-[#141414] px-3 py-1 text-sm rounded-2xl ">
               JavaScript
             </span>
