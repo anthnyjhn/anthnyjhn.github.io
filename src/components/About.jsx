@@ -5,27 +5,26 @@ const About = () => {
     <div className="mt-30 mb-20">
       <h2 className="my-6 font-semibold">ABOUT</h2>
       <p>
-        I’m a frontend engineer with an expertise in building accessible,
-        pixel-perfect user interfaces. I take pride in crafting thoughtful,
-        inclusive products and have a sharp eye for the little details that
-        elevate user experience. I do my best work at the intersection of design
-        and engineering, where great UX meets clean, scalable code. <br />{" "}
-        <br />
-        Currently, I'm on the component library team at Klaviyo, where I
-        maintain and evolve the company's design system. I lead engineering
-        efforts across components, tooling, and patterns, partnering closely
-        with designers and engineers to ensure accessibility is built into the
-        foundation of our products. <br /> <br />
-        Previously, I’ve worked across a wide range of environments — from
-        product studios to startups and large tech companies — including Apple,
-        Starry Internet, and Upstatement. Outside of my day-to-day work, I also
-        created an online video course a few years ago which walks through
-        building a real-world, API-driven application from scratch. These
-        experiences have shaped how I think about building products that are
-        both well-crafted and widely usable. <br /> <br />
-        In my spare time, you can usually find me climbing, playing tennis,
-        hanging out with my wife and two cats, or running around Hyrule
-        searching for Korok seeds.
+        I'm an IT student with a strong interest in backend systems, networking,
+        servers, and cloud technologies. I work primarily with C#, .NET,
+        TypeScript, Node.js, and AWS, and enjoy building practical software that
+        solves real-world problems.
+        <br /> <br />
+        Alongside my studies, I run a small IT business and am actively
+        developing multiple personal and academic projects to expand my skills
+        and experience. You can find many of my projects on{" "}
+        <a href="https://github.com/anthnyjhn" className="font-semibold">
+          GitHub
+        </a>
+        .
+        <br /> <br />
+        Previously, I've worked as a Game Developer on Roblox across multiple
+        game development studios. I also contributed and created to a couple of
+        open source civic tech projects aiming to enhance the relationship
+        between citizens and the government.
+        <br /> <br />
+        In my spare time, I enjoy cycling, playing tennis, working on cars, and
+        spending time with my dog.
       </p>
     </div>
   );

@@ -1,5 +1,8 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+
 const Projects = () => {
   return (
     <div className="my-15">
@@ -7,36 +10,38 @@ const Projects = () => {
       <div className="grid grid-cols-12 mb-12">
         <div className="col-span-3 pr-8 pt-1">
           <img
-            src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=256&q=75"
+            src="/antibrainrot.png"
             alt=""
             className="max-w-full hover:outline-1 "
           />
         </div>
         <div className="col-span-9">
           <p className="font-semibold mb-2 text-lg">
-            Build a Spotify Connected App
+            Anti-Brainrot Chrome Extension{" "}
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
           </p>
           <p className="mb-3">
-            Video course that teaches how to build a web app with the Spotify
-            Web API. Topics covered include the principles of REST APIs, user
-            auth flows, Node, Express, React, Styled Components, and more.
+            A browser extension that helps you focus by blocking short form
+            contents and algorithm-suggested contents. Accumulated 520+ installs
+            and 50+ weekly active users.
           </p>
           <div className="flex  gap-1.5">
             <span className="bg-[#141414] px-3 py-1 text-sm rounded-2xl ">
-              React
+              JavaScript
             </span>
             <span className="bg-[#141414]  px-3 py-1 text-sm rounded-2xl ">
-              Express
+              HTML
             </span>
             <span className="bg-[#141414]  px-3 py-1 text-sm rounded-2xl ">
-              Heroku
+              Web Scraping
             </span>
           </div>
         </div>
       </div>
       <h2>
-        <a href="#" className="font-bold">
-          View Full Project Archive
+        <a href="/archive" className="font-bold">
+          View Full Project Archive{" "}
+          <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
         </a>
       </h2>
     </div>
