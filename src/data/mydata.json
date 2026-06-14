@@ -1,0 +1,48 @@
+{
+  "profile": {
+    "name": "Anthony John C.",
+    "headline": "IT - Software Tech. & Data Science, 2027 at Swinburne University",
+    "desciption": "Software Development · Networking · Cloud",
+    "socials": {
+      "github": "https://github.com/anthnyjhn",
+      "linkedin": "https://www.linkedin.com/in/anthnyjhn/",
+      "website": "https://blog.anthnyjhn.com/",
+      "email": "johncaronongan17@gmail.com"
+    }
+  },
+  "about": {
+    "body": "I'm an IT student with a strong interest in backend systems, networking, servers, and cloud technologies. I work primarily with C#, .NET, TypeScript, Node.js, and AWS, and enjoy building practical software that solves real-world problems.\n\nAlongside my studies, I run a small IT business and am actively developing multiple personal and academic projects to expand my skills and experience. You can find many of my projects on GitHub: https://github.com/anthnyjhn.\n\nPreviously, I've worked as a Game Developer on Roblox across multiple game development studios. I also contributed to a couple of open source civic tech projects aiming to enhance the relationship between citizens and the government.\n\nIn my spare time, I enjoy cycling, playing tennis, working on cars, and spending time with my dog."
+  },
+  "experience": [
+    {
+      "role": "IT Specialist (Self-Employed)",
+      "companyName": "Condobolin IT Solutions",
+      "description": "Troubleshoot complex infrastracture, provide technical assistance and administer system in production environments. Configure and maintain Linux and Windows server systems and provide updates and recommendations.",
+      "skills": ["Linux", "Servers", "Customer Support"],
+      "date": {
+        "startDate": "2025",
+        "endDate": "PRESENT"
+      }
+    },
+    {
+      "role": "Wide Format Printer Operator",
+      "companyName": "Progress Printing Pty Ltd",
+      "description": "Operate, maintain and troubleshoot printing equipments. Work collaboratively with sales team, managers, and print finishers to offer the best output to our clients.",
+      "skills": ["Teamwork", "Communication", "Creativity"],
+      "date": {
+        "startDate": "2024",
+        "endDate": "PRESENT"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "Anti-Brainrot Chrome Extension",
+      "projectLink": "https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf",
+      "description": "A browser extension that helps you focus by blocking short form contents and algorithm-suggested contents. Accumulated 520+ installs and 50+ weekly active users.",
+      "tech": ["JavaScript", "HTML", "TailwindCSS"],
+      "image": "projects/antibrainrot.png",
+      "projectDate": "2025"
+    }
+  ]
+}
