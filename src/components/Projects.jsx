@@ -3,6 +3,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
+import ProjectCard from "./ProjectCard";
+
+import mydata from "../data/mydata.json";
+
 const Projects = () => {
   return (
     <section className="my-15">
@@ -10,46 +14,9 @@ const Projects = () => {
         PROJECTS
       </h2>
       <div>
-        <div className="flex flex-wrap sm:grid grid-cols-12 mb-12 transition-transform duration-300 hover:scale-101 hover:bg-[#0f0f0f] rounded-md p-4">
-          <div className="mb-4 sm:col-span-3 pr-8 pt-1">
-            <img
-              src="/antibrainrot.png"
-              alt=""
-              className="max-w-full rounded hover:outline-1 "
-            />
-          </div>
-          <div className="col-span-9">
-            <p className="font-semibold mb-2 text-lg">
-              <a
-                href="https://chromewebstore.google.com/detail/ocbnhbkeniofdlnjhenmhibejdillfaf?utm_source=item-share-cb"
-                target="blank"
-              >
-                Anti-Brainrot Chrome Extension
-                <FontAwesomeIcon
-                  icon={faArrowUpRightFromSquare}
-                  size="xs"
-                  className="ml-1"
-                />
-              </a>
-            </p>
-            <p className="mb-3 text-zinc-400">
-              A browser extension that helps you focus by blocking short form
-              contents and algorithm-suggested contents. Accumulated 520+
-              installs and 50+ weekly active users.
-            </p>
-            <div className="flex flex-wrap gap-1.5">
-              <span className="bg-[#141414] px-3 py-1 text-sm rounded-2xl ">
-                JavaScript
-              </span>
-              <span className="bg-[#141414]  px-3 py-1 text-sm rounded-2xl ">
-                HTML
-              </span>
-              <span className="bg-[#141414]  px-3 py-1 text-sm rounded-2xl ">
-                Web Scraping
-              </span>
-            </div>
-          </div>
-        </div>
+        {mydata.projects.map((proj, index) => (
+          <ProjectCard key={index} project={proj} />
+        ))}
       </div>
       <h2>
         <a href="/archive" className="font-bold">
