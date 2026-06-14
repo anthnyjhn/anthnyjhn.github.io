@@ -8,6 +8,8 @@ import {
 
 import { faEarthAmericas, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import Navigation from "../components/Navigation";
+
 const Intro = () => {
   return (
     <div className="max-w-full xl:max-w-[50%] mt-4">
@@ -18,6 +20,10 @@ const Intro = () => {
       <p className="text-md my-5 text-slate-400">
         Software Development · Networking · Cloud
       </p>
+
+      <div className="hidden xl:block my-20">
+        <Navigation />
+      </div>
 
       <div className="flex gap-2">
         <a href="https://github.com/anthnyjhn" target="blank">

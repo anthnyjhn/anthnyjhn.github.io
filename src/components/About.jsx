@@ -2,8 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="mt-30 xl:mt-0 mb-20">
-      <h2 className="my-6 font-semibold">ABOUT</h2>
+    <section className="mt-30 xl:mt-0 mb-20">
+      <h2 className="my-6 font-semibold" id="ABOUT">
+        ABOUT
+      </h2>
       <p>
         I'm an IT student with a strong interest in backend systems, networking,
         servers, and cloud technologies. I work primarily with C#, .NET,
@@ -26,7 +28,7 @@ const About = () => {
         In my spare time, I enjoy cycling, playing tennis, working on cars, and
         spending time with my dog.
       </p>
-    </div>
+    </section>
   );
 };
 
