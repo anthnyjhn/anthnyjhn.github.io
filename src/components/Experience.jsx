@@ -17,9 +17,17 @@ const Experience = () => {
         ))}
       </div>
       <h2>
-        <a href="/resume.pdf" download="resume.pdf" className="font-bold">
-          View Full Résumé{" "}
-          <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
+        <a
+          href="/resume.pdf"
+          download="resume.pdf"
+          className="inline-flex items-center gap-1 hover:gap-2 font-bold transition-transform duration-300 ease-out hover:translate-x-1"
+        >
+          View Full Résumé
+          <FontAwesomeIcon
+            icon={faArrowUpRightFromSquare}
+            size="xs"
+            className="transition-transform duration-300 ease-out"
+          />
         </a>
       </h2>
     </section>

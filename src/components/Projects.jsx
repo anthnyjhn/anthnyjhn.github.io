@@ -19,9 +19,17 @@ const Projects = () => {
         ))}
       </div>
       <h2>
-        <a href="/archive" className="font-bold">
-          View Full Project Archive{" "}
-          <FontAwesomeIcon icon={faArrowUpRightFromSquare} size="xs" />
+        <a
+          href="/archive"
+          className="inline-flex items-center gap-1 hover:gap-2 font-bold transition-transform duration-300 ease-out hover:translate-x-1"
+          target="blank"
+        >
+          View Projects Archive
+          <FontAwesomeIcon
+            icon={faArrowUpRightFromSquare}
+            size="xs"
+            className="transition-transform duration-300 ease-out"
+          />
         </a>
       </h2>
     </section>
