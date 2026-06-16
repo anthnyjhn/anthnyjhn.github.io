@@ -20,7 +20,7 @@ const ProjectTableRow = ({ project }) => {
         </div>
       </td>
       <td className="py-4 px-2 sm:w-4/12 lg:w-3/12 hidden sm:table-cell">
-        <a href={project.projectLink} target="blank">
+        <a href={project.projectLink} className="underline" target="blank">
           {project.projectLinkDomain}
         </a>
         <FontAwesomeIcon
@@ -30,7 +30,7 @@ const ProjectTableRow = ({ project }) => {
         />
       </td>
       <td className="sm:hidden py-4 px-2">
-        <a href={project.projectLink} target="blank">
+        <a href={project.projectLink} className="underline" target="blank">
           {project.projectName}
         </a>
         <FontAwesomeIcon
