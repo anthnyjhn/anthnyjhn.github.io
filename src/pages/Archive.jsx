@@ -17,16 +17,22 @@ const Archive = () => {
         </a>
       </h1>
       <table className="w-full mt-20 text-left">
-        <tr className="border-b-2">
-          <th className="px-2  w-1/12">Year</th>
-          <th className="hidden px-2 sm:table-cell">Project</th>
-          <th className="hidden px-2 md:table-cell">Tech Stack</th>
-          <th className="hidden px-2 sm:table-cell">Link</th>
-          <th className="px-2 sm:hidden">Project (Link)</th>
-        </tr>
-        {mydata.projects.map((proj, index) => (
-          <ProjectTableRow key={index} project={proj} />
-        ))}
+        <thead>
+          <tr className="border-b-2">
+            <th className="px-2  w-1/12">Year</th>
+            <th className="hidden px-2 sm:table-cell">Project</th>
+            <th className="hidden px-2 md:table-cell">Tech Stack</th>
+            <th className="hidden px-2 sm:table-cell">Link</th>
+            <th className="px-2 sm:hidden">Project (Link)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {mydata.projects
+            .sort((a, b) => b.projectDate - a.projectDate)
+            .map((proj, index) => (
+              <ProjectTableRow key={index} project={proj} />
+            ))}
+        </tbody>
       </table>
     </div>
   );

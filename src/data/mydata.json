@@ -43,7 +43,7 @@
       "description": "A browser extension that helps you focus by blocking short form contents and algorithm-suggested contents. Accumulated 520+ installs and 50+ weekly active users.",
       "tech": ["JavaScript", "HTML", "TailwindCSS"],
       "image": "projects/antibrainrot.png",
-      "projectDate": "2025"
+      "projectDate": 2025
     }
   ]
 }
